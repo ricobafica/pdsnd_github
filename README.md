@@ -14,6 +14,7 @@ The project of posting a code on GitHub is consisted by:
 - create a branch named DOCUMENTATION
     - switch to DOCUMENTATION branch
     - update this README file
+    - repeat the README update two more times
     - check, stage, commit and push to my remote repository
 3) Additional Changes
     - switch to DOCUMENTATION branch

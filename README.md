@@ -34,7 +34,10 @@ The project of posting a code on GitHub is consisted by:
 5) Submit the project to Udacity  
 
 ### Files used
-Include the files used
+bikeshare.py
+washington.csv
+new_york_city.csv
+chicago.csv
 
 ### Credits
 https://github.com/udacity/pdsnd_github

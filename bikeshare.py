@@ -1,3 +1,12 @@
+"""
+This python code provide the following information:
+    1- Popular times of travel (i.e., occurs most often in the start time)
+    2- Popular stations and trip
+    3- Trip duration
+    4- User info
+by exploring US Bikeshare Data from Chicago, New York City and Washington.
+"""
+
 import time
 import pandas as pd
 import calendar

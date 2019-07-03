@@ -35,26 +35,23 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     if time_filter == 'month':
-        eligible_month = False
         months = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
-        while eligible_month == False:
+        while True:
             month = input("Which month? January, February, March, April, May, June, or All: ").title()
             if month in months:
                 day = 'All'
-                eligible_month = True
+                break
             else:
                 print("Incorrect value. Please write an eligible filter to month!")
     elif time_filter == 'day':
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-        eligible_day = False
         days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'All']
-        while eligible_day == False:
+        while True:
             day = input("Which day of week to filter? Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, All: ").title()
             if day in days:
                 month = 'All'
-                eligible_day = True
+                break
             else:
-
                 print("Incorrect value. Please write an eligible filter to day o week!")
     else:
         month = 'All'

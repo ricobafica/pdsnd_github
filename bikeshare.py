@@ -25,12 +25,11 @@ def get_filters():
         else:
             print("Incorrect value. Please write an eligible city!")
 
-    eligible_time = False
     times = ['month', 'day', 'none']
-    while eligible_time == False:
+    while True:
         time_filter = input("Would you like to filter the data by month, day, or not at all? Type \"none\" no time filter:").lower()
         if time_filter in times:
-            eligible_time = True
+            break
         else:
             print("Incorrect value. Please write an eligible filter to the time!")
 
